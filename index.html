@@ -1,0 +1,134 @@
+﻿
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+ <meta charset="utf-8" />
+    <title>Trần Đông Blog - wwww.trandong.com</title>
+    <meta name="author" content="Trần Đông" />
+<link href="img/logo.png" rel="shortcut icon">
+    <meta name="description" content="Học làm web đơn giản" />
+    <meta name="keyword" content="Hoc html, huong dan html, html co ban" />
+    <style type="text/css">
+#thu-vi {
+  background: white;
+  width: 150px;
+  height: 150px;
+margin-bottom: 40px;
+  transition: margin-left 2s, background 1s;
+  -moz-transition: margin-left 2s, background 1s;
+  -webkit-transition: margin-left 2s, background 1s;
+}
+#thu-vi:hover {
+  margin-left: 80%;
+margin-bottom: 40px;
+  background: white;
+}
+.pagination {
+    display: inline-block;
+    margin-left:38%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+   
+}
+.pagination a:hover {
+    color: white;
+background: red;
+}
+/*==Reset CSS==*/
+*
+	{
+		margin:0;
+		padding:0;
+	}
+body
+	{
+		font-family:sans-serif;
+		color:#333;
+	}
+#menu ul
+	{
+		list-style-type:none;
+		background: #1f568b;
+		text-align: center;
+		z-index:30;
+	}
+#menu ul li
+	{
+		color:#f1f1f1;
+		display: inline-table;
+		width: 120px;
+		height: 40px;
+		line-height: 40px;
+		position:relative;
+	}
+#menu ul li a
+	{
+		color:#f1f1f1;
+		text-decoration: none;
+		display: block ;
+
+	}
+#menu ul li a:hover
+	{
+		background: #f1f1f1;
+		color:#333;
+
+	}
+#menu ul li >.sub_menu
+	{
+		display: none ;
+		position: absolute;
+	}
+#menu ul li:hover >.sub_menu
+	{
+		display: block ;
+		
+	}
+
+    </style>
+</head>
+<body>
+<div id="menu">
+  <ul>
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="slider.html">Diễn đàn</a></li>
+    <li>
+	<a href="#">Tin tức</a>
+      <ul class="sub_menu">
+        <li><a href="#">WordPress</a></li>
+        <li><a href="myweb.html">SEO</a></li>
+        <li><a href="#">Hosting</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Hỏi đáp</a></li>
+    <li><a href="#">Liên hệ</a></li>
+    <li><a href="http://localhost:8888/my_website/login.php" target="_blank">Đăng nhập</a></li>
+  </ul>
+</div>
+  <video controls poster="img/nancy.jpg" style="width:100%;height:50%";z-index=20;">
+    <source src="img/baam.mp4" type="video/mp4">
+/*<track src="C:\Users\donghunter\Desktop\New folder\vietsub.vtt" default>*/
+<track src="C:\Users\donghunter\Downloads\soạn thảo web\1.srt" kind="subtitles" srclang="en" label="English">
+  </video>
+<h4>Một ví dụ thú vị hơn</h4>
+Sử dụng thuộc tính transition trong CSS3.
+<div id="thu-vi">
+  <img src="http://webcoban.vn/public/home/img_demo/troll-funny.gif" width="200px" heigth="100px">
+</div>
+<div class="pagination" >
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+</body>
+</html>
